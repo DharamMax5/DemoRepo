@@ -37,6 +37,8 @@ public class TestBase
 			  //WebDriver Driver = new FirefoxDriver();
 			  
 			  driver = new ChromeDriver();
+			  
+			  System.out.println("Hello Dharam");
        	
 			
 			
