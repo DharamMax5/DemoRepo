@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Atcost_Suit">
+
+<listeners>
+      <listener class-name="com.qa.ExtentReporter.ExtentReporter" />
+</listeners>
+  <test thread-count="5" name="Atcost_test">
+    <classes>
+      <class name="com.qa.Product_PageTest.Product_PageHome_Test"/>
+    </classes>
+  </test> <!-- Atcost_test -->
+</suite> <!-- Atcost_Suit -->
